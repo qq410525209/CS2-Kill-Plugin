@@ -20,6 +20,7 @@ public class Kill : BasePlugin, IPluginConfig<KillConfig>
         AddCommand("kill", "Kill yourself", (ply, info) => {
             SuicideHandler(ply, info);
         });
+        
 
     }
 
